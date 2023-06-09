@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-[Inter];
+    }
+
+    li {
+        @apply px-4;
+        @apply cursor-pointer;
+    }
+
+    .dark{
+      @apply bg-gray-800;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
